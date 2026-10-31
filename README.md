@@ -20,9 +20,13 @@ Homebrew 7 and later only load casks from taps outside Homebrew's own once you t
 
 ## Update and uninstall
 
+From version 0.2.0, dotdrawer updates itself: it checks for new versions in the app, and **Check for Updates…** in its menu checks right away. That's why a plain `brew upgrade` skips it. To have Homebrew install the latest version anyway, add `--greedy`:
+
 ```bash
-brew upgrade --cask dotdrawer
+brew upgrade --cask --greedy dotdrawer
 ```
+
+On 0.1.0, which can't update itself, the same command moves you to the current version.
 
 ```bash
 brew uninstall --cask dotdrawer
