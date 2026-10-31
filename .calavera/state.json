@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "integrations": [
+    "github-repository-controls"
+  ],
+  "files": [
+    ".github/repository-controls.json",
+    ".github/dependabot.yml",
+    "scripts/repository-controls.mjs",
+    "docs/repository-controls.md"
+  ],
+  "managedFiles": [
+    {
+      "path": ".github/repository-controls.json",
+      "hash": "6667d68"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "hash": "73591e2"
+    },
+    {
+      "path": "scripts/repository-controls.mjs",
+      "hash": "37f16be"
+    },
+    {
+      "path": "docs/repository-controls.md",
+      "hash": "3291b1f"
+    }
+  ],
+  "aiArtifacts": [],
+  "aiWiring": [],
+  "profile": "minimal"
+}
